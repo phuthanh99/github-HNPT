@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    
     <title>website-university</title>
 </head>
 <body>
@@ -13,30 +14,42 @@
         <div class="top">
             <div class="container">
                 <div class="header-top row">
-                    <p>FPT<span>UNIVERSITY</span></p>
+                    <img src="image/logo1.jpg" >
                     <ul>
                         <i class="fas fa-times"></i>
                         <li><a href="">Trang chủ</a></li>
-                        <li><a href="">Giới thiệu</a></li>
-                        <li><a href="">Khóa hóc</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="#brand-tix">Giới thiệu</a></li>
+                        <li><a href="#courses-tix">Khóa học</a></li>
+                        <li><a href="#testimony-tix">Blog</a></li>
+                        <li><a href="#contact-tix">Liên hệ</a></li>
                     </ul>
                     <i class="fas fa-bars"></i>
                  </div>
             </div>
         </div>
-        <div class="bg-image">
-            
+    </header> 
+    
+        <!-- Slideshow container -->
+    <section class="slideshow-container responsive">
+        <div class="mySlides">
+        <img class="responsive" src="image/buh.jpg" >
         </div>
-        <div class="header-text">
-            <h1>Trường Đại Học Hàng Đầu Việt Nam Về Lập Trình Javascript</h1>
-            <p>Hãy đến với chúng tôi để trải nghiệm một nền giáo dục hàng đầu thế giới</p>
-            <button>Đăng ký</button>
+    
+        <div class="mySlides">
+        <img class="responsive" src="image/buh1.jpg" >
         </div>
-    </header>
+    
+        <div class="mySlides">
+        <img class="responsive" src="image/buh2.png">
+        </div>
+    
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+    
     <!-- ----------------------Course---------------- -->
-    <section class="courses">
+
+    <section id="courses-tix" class="courses">
              <h1>Những Khóa Học Cho Bạn</h1>
         <div class="course-items container row">
             <div class="course-item">
@@ -53,25 +66,28 @@
             </div>
         </div>
     </section>
+    
 <!-- ----------------------Brand---------------- -->
-    <section class="brand">
-        <h1>Hệ Thống Của Chúng Tôi</h1>
+
+    <section id="brand-tix" class="brand">
+     <h1>Hệ Thống Của Chúng Tôi Ở Hồ Chí Minh</h1> 
         <div class="brand-items container row">
             <div class="brand-item">
-                <h2>Hồ Chí Minh</h2>
-               <img src="image/brand1.jpg" alt="">
+                <h2>Cơ sở 1</h2>
+               <img src="image/cs1.jpeg" alt="">
             </div>
             <div class="brand-item">
-                <h2>Đà Nẵng</h2>
-                <img src="image/brand2.jpg" alt="">
+                <h2>Cơ sở 2</h2>
+                <img src="image/cs2.jpg" alt="">
             </div>
             <div class="brand-item">
-                <h2>Hà Nội</h2>
-                <img src="image/brand3.jpg" alt="">
+                <h2>cơ sở 3</h2>
+                <img src="image/cs3.jpg" alt="">
             </div>
         </div>
     </section>
 <!-- ----------------------facilities---------------- -->
+
 <section class="facilities">
     <h1>Cơ Sở Vật Chất</h1>
     <div class="facilities-items container row">
@@ -93,14 +109,15 @@
     </div>
 </section>    
 <!-- ----------------------testimony---------------- -->
-<section class="testimony">
+
+<section id="testimony-tix" class="testimony">
     <h1>Cảm Nhận Học Viên</h1>
     <div class="testimony-items container row">
         <div class="testimony-item">
            <img src="image/stu1.jpg" alt="">
            <div class="testimony-text">
-            <p>Phòng học của chúng tôi được trang bị những thiết bị hiện đại</p>
-            <h1>Ngô Sỹ Nguyên</h1>
+            <p>Tôi học được nhiều kiến thức và trải nghiệm môi trường chuyên nghiệp</p>
+            <h1>Nguyễn Quỳnh Châu</h1>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -123,8 +140,8 @@
         <div class="testimony-item">
             <img src="image/stu3.jpg" alt="">
             <div class="testimony-text">
-                <p>Phòng học của chúng tôi được trang bị những thiết bị hiện đại</p>
-                <h1>Ngô Sỹ Nguyên</h1>
+                <p>Trường đem lại nhiều điều bổ ích cho tôi và cho tôi kiến thức vững chắc để đi làm</p>
+                <h1>Huỳnh Tấn Phát</h1>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -135,21 +152,21 @@
     </div>
 </section>    
 <!--------------------------- Contact------------------------- -->
-<section class="contact">
+
+<section id="contact-tix" class="contact">
     <p>Hãy Nhanh Liên Hệ Với Chúng Tôi Để Được Hưởng Ưu Đãi Tốt Nhất Về Chính Sách Giảm Học Phí</p>
     <button>Liên Hệ</button>
 </section>
 <!--------------------------- footer------------------------- -->
 <footer>
     <h1>Về Chúng Tôi</h1>
-    <p>Trường Đại học FPT là trường đại học đứng đầu về đào tạo khối ngành kinh tế tại miền Trung Việt Nam, <br>
-         trực thuộc hệ thống Đại học Đà Nẵng, đồng thời là trung tâm nghiên cứu kinh tế học lớn nhất và đi đầu tự chủ đại học của khu vực Miền Trung-Tây Nguyên.</p>
+    <p>Trường Đại học Ngân hàng là trường đại học nằm trong top về đào tạo khối ngành kinh tế, kỹ thuật Việt Nam, <br>
+         trực thuộc hệ thống Đại học Hồ Chí Minh, đồng thời là trung tâm nghiên cứu kinh tế học lớn nhất và đi đầu tự chủ đại học của Hồ Chí Minh.</p>
     <i class="fab fa-facebook-square"></i>
     <i class="fab fa-twitter-square"></i>
     <i class="fab fa-youtube"></i>
     <i class="fab fa-linkedin"></i>
-    <p>Made with <span>♥</span> by FrontendNguyento</p>
 </footer>
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>                      
