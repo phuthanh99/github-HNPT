@@ -16,10 +16,9 @@ a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-html{
     scroll-behavior: smooth;
 }
+
 .container {
 
     width: 100%;
@@ -36,7 +35,7 @@ header{
     left: 0;
     right: 0;
     z-index: 1;
-
+    opacity: 1;
 }
 /* Slide show*/
 .prev, .next {
@@ -62,6 +61,7 @@ header{
 }
 .slideshow-container{
     margin-top: 114px;
+    
 }
 .top {
     background-color: rgba(34, 115, 190, 1);
@@ -131,7 +131,7 @@ header{
 .courses {
     
     max-width: 1024px;
-    padding: 50px 0;    
+    padding: 130px 0 0 0;    
     margin: 0 auto;
 }
 .courses h1 {
@@ -167,7 +167,7 @@ header{
 /* ------------------brand-------------------- */
 .brand {
     max-width: 1024px;
-    padding: 50px 0;    
+    padding: 130px 0 0;    
     margin: 0 auto;
 }
 .brand h1 {
@@ -229,7 +229,7 @@ header{
 /* ------------------facilities-------------------- */
 .facilities {
     max-width: 1024px;
-    padding: 50px 0;    
+    padding: 130px 0 0 0;    
     margin: 0 auto;
 }
 .facilities> h1 {
@@ -272,7 +272,7 @@ header{
 /* <!-- ----------------------testimony---------------- --> */
 .testimony {
     max-width: 1024px;
-    padding: 50px 0;    
+    padding: 130px 0 ;    
     margin: 0 auto;
 }
 .testimony> h1 {
